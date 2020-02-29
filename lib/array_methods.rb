@@ -1,17 +1,15 @@
 def find_element_index(array, value_to_find)
   i = 0
-  while i < array.length
-    if  i == value_to_find
-      return index(array[i])
-    end
+  while i < array.length do
+  
 end
 
 def find_max_value(array)
-  array.sort
-  return array.last
+  sorted_max = array.sort
+  return sorted_max.last
 end
 
 def find_min_value(array)
-  array.sort
-  return array.first
+  sorted = array.sort
+  return sorted.first
 end
